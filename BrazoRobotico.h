@@ -1,9 +1,9 @@
 #include <iostream>
-using namespace;
+using namespace std;
 
 
-Class BrazoRobotico {
-        private:
+	class BrazoRobotico{
+	private:
                 double x;
                 double y;
                 double z;
@@ -11,21 +11,21 @@ Class BrazoRobotico {
 
 
         public:
-                BrazoRobotico(int x_, int y_, bool sujetarobjeto_){
+                BrazoRobotico(double x2,double  y2,double z2, bool sujetarobjeto2);
 
-                double consultarx()
+                double consultarx();
 
-                double consultary()
+                double consultary();
 
-                double consultarx()
+                double consultarz();
 
-                bool consultar sujetarobjeto()
+                bool consultarsujetarobjeto();
 
-		void coger(bool sujetarobjeto()
+		void coger();
 
-                void soltar(bool sujetarobjeto)
+                void soltar();
 
-                void mover(double newx, double newy, double newz)
-		}
-}
+                void mover(double newx, double newy, double newz);
+		
+};
 

@@ -5,6 +5,6 @@ int main(){
     brazo.mover(6, 10, 15);
     std::cout << " el brazo se movió " << std::endl;
     brazo.coger();
-    std::count << " el brazo cogió " << std::endl;
+    std::cout << " el brazo cogió " << std::endl;
     return 0;
 }

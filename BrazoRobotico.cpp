@@ -1,10 +1,10 @@
 #include "BrazoRobotico.h"
 
-	BrazoRobotico::BrazoRobotico(double x, double y, double z, bool sujetarbjeto){
-                x = x;
-                y = y;
-                z = z;
-                sujetarobjeto = sujetarobjeto;
+	BrazoRobotico::BrazoRobotico(double x2, double y2, double z2, bool sujetarobjeto2){
+                double x = x2;
+                double y = y2;
+                double z = z2;
+                bool sujetarobjeto = sujetarobjeto2;
 	}
 
 	double BrazoRobotico::consultarx(){
@@ -19,15 +19,15 @@
                 return z;
 	}
 
-	bool BrazoRobotico::consultar sujetarobjeto(){
+	bool BrazoRobotico::consultarsujetarobjeto(){
                 return sujetarobjeto;
 	}
 
-	void BrazoRobotico::coger(bool sujetarobjeto){
+	void BrazoRobotico::coger(){
                 sujetarobjeto = true;
 	}
 
-	void BrazoRobotico::soltar(bool sujetarobjeto){
+	void BrazoRobotico::soltar(){
                 sujetarobjeto = false;
 	}
 
